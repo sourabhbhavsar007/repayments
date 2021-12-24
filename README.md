@@ -1,7 +1,7 @@
 # repayments
 Spring Boot Project to generate Repayment Schedule
 
-Business Requirements :
+# Business Requirements :
 
 In order to inform borrowers about the final repayment schedule, we need to have pre-calculated repayment plans throughout the lifetime of a loan.
 
@@ -13,33 +13,39 @@ To be able to calculate a repayment plan specific input parameters are necessary
 4. Date of Disbursement/Payout ("startDate")
 
 
-Project Specifications :
+# Project Specifications :
 
 This is a Spring Boot application and we have implemented a web service that has one endpoint to generate a borrower plan via HTTP in JSON.
 
-  Port         : By default application runs on port 8080 . Kindly make sure the port is available
-  HTTP Method  : POST
-  Media Type   : application/json
-  Security     : Currently no security is configured , so no need for any HTTP Basic or Transport layer security .  
+  **Port**         : By default application runs on port 8080 . Kindly make sure the port is available.
   
-  Endpoint : localhost:8080/repaymentschedule (POST)
+  **HTTP Method**  : POST
+  
+  **Media Type**   : application/json
+  
+  **Security**     : Currently no security is configured , so no need for any HTTP Basic or Transport layer security .  
+  
+  **Endpoint : localhost:8080/repaymentschedule (POST)**
   
 
-Sample Request: 
 
 
-Request Payload : 
+# Sample Request: 
 
+
+**Request Payload :** 
+
+```
 {
     "loanAmount": "5000",
     "nominalRate": "5.0",
     "duration": 2,
     "startDate": "2018-01-01T00:00:01Z"
 }
+```
 
-
-Response Body : 
-
+**Response Body :** 
+```
 [
     {
         "borrowerPaymentAmount": 2515.64,
@@ -58,15 +64,16 @@ Response Body :
         "remainingOutstandingPrincipal": 0
     }
 ]
+```
 
 
-
-Assumptions : 
+# Assumptions : 
 
 There is no need for security as per requirement so any application can access the API.
 
 
-Executing the project :
+
+# Executing the project :
 
 1. To execute, please download the zip of the project or clone the repository.
 
@@ -80,11 +87,12 @@ Executing the project :
 
 
 
-Screenshots :
+# Screenshots :
 
 
 
 
+<img width="1470" alt="generate-plan" src="https://user-images.githubusercontent.com/30754286/147372298-43b7e05f-395d-4ab0-9d2c-272a361c17e9.png">
 
 
 
