@@ -91,9 +91,6 @@ There is no need for security as per requirement so any application can access t
 
 
 
-
-<img width="1470" alt="generate-plan" src="https://user-images.githubusercontent.com/30754286/147372298-43b7e05f-395d-4ab0-9d2c-272a361c17e9.png">
-
-
+<img width="1481" alt="Screenshot 2022-01-06 at 14 45 00" src="https://user-images.githubusercontent.com/30754286/148392221-f45b7155-7e9c-4660-a774-bc27f8d6207e.png">
 
 
