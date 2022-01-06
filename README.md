@@ -40,7 +40,7 @@ This is a Spring Boot application and we have implemented a web service that has
     "loanAmount": "5000",
     "nominalRate": "5.0",
     "duration": 2,
-    "startDate": "2018-01-01T00:00:01Z"
+    "startDate": "2022-01-01T00:00:01Z"
 }
 ```
 
@@ -49,7 +49,7 @@ This is a Spring Boot application and we have implemented a web service that has
 [
     {
         "borrowerPaymentAmount": 2515.64,
-        "date": "2018-01-01T00:00:01Z",
+        "date": "2022-01-01T00:00:01Z",
         "initialOutstandingPrincipal": 5000,
         "interest": 20.83,
         "principal": 2494.81,
@@ -57,7 +57,7 @@ This is a Spring Boot application and we have implemented a web service that has
     },
     {
         "borrowerPaymentAmount": 2515.63,
-        "date": "2018-02-01T00:00:01Z",
+        "date": "2022-02-01T00:00:01Z",
         "initialOutstandingPrincipal": 2505.19,
         "interest": 10.44,
         "principal": 2505.19,
